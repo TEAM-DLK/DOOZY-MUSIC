@@ -1,6 +1,6 @@
 #!/bin/bash
 
-### Yukki Music Bot Installer
+### 𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 𝗠𝗨𝗦𝗜𝗖 |⁪⁬⁮⁮⁮⁮𝘽𝙊𝙏 Installer
 
 pprint (){
 
@@ -92,7 +92,7 @@ packages(){
 
 			pprint "FAIL.\n\n" "cred"
 
-			pprint "You need to install ffmpeg manually in order to use VenomMusicBot, exiting..\n" "cblue"
+			pprint "You need to install ffmpeg manually in order to use 𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 𝗠𝗨𝗦𝗜𝗖 |⁪⁬⁮⁮⁮⁮𝘽𝙊𝙏 ‌⁪⁬𓆪, exiting..\n" "cblue"
 
 			exit 1
 
@@ -128,9 +128,9 @@ repo(){
 
 	# Get git repo if the installer is runned standalone
 
-	[[ ! "VENOMxOPxMUSIC" == $(basename -s .git `git config --get remote.origin.url`) ]] &&
+	[[ ! "DOOZY-MUSIC-main" == $(basename -s .git `git config --get remote.origin.url`) ]] &&
 
-	git clone https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC &&  cd VENOMxOPxMUSIC
+	git clone https://github.com/TEAM-DLK/DOOZY-MUSIC-main &&  cd DOOZY-MUSIC-main
 
 }
 
@@ -152,7 +152,7 @@ installation(){
 
 clear
 
-pprint "Welcome to Yukki Music Bot Setup Installer\n\n"
+pprint "Welcome to 𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 𝗠𝗨𝗦𝗜𝗖 |⁪⁬⁮⁮⁮⁮𝘽𝙊𝙏 Setup Installer\n\n"
 
 pprint "If you see any error during Installation Process, Please refer to these files for logs: "
 
@@ -176,7 +176,7 @@ repo
 
 installation
 
-pprint "\n\n\n\n\nVenom Music Bot Installation Completed!" "cgreen"
+pprint "\n\n\n\n\n𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 𝗠𝗨𝗦𝗜𝗖 |⁪⁬⁮⁮⁮⁮𝘽𝙊𝙏 Installation Completed!" "cgreen"
 
 sleep 4
 
@@ -222,7 +222,7 @@ STRING_SESSION = $STRING_SESSION""" > .env
 
 clear
 
-pprint "\n\n\nYour Vars have been saved Successfully!, Thanks for using Venom Installer, now you can proceed by starting the bot with bash start!"
+pprint "\n\n\nYour Vars have been saved Successfully!, Thanks for using 𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 𝗠𝗨𝗦𝗜𝗖 |⁪⁬⁮⁮⁮⁮𝘽𝙊𝙏 Installer, now you can proceed by starting the bot with bash start!"
 
 pprint "\n\n\nWant more vars?"
 
