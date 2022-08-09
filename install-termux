@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+# VENOM-CRAZY - VENOMxOPxMUSIC
+
+# Copyright (C) 2021-2022 TeamVenom
+
+#
+
+# This file is a part of < https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC/ >
+
+# PLease read the GNU Affero General Public License in <https://www.github.com/VENOM-CRAZY/VENOMxOPxMUSIC/LICENSE/>.
+
+if [ -d "resources" ]
+
+then
+
+    echo "Current directory Identified.."
+
+else
+
+    apt install git -y
+
+    git clone https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC
+
+    cd VENOMxOPxMUSIC
+
+fi
+
+bash resources/startup/termux.sh
