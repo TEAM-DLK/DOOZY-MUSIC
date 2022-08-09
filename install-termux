@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
-# VENOM-CRAZY - VENOMxOPxMUSIC
+# DOOZY-MUSIC-main - DOOZY-MUSIC-main
 
-# Copyright (C) 2021-2022 TeamVenom
+# Copyright (C) 2021-2022 DOOZY-MUSIC
 
 #
 
 # This file is a part of < https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC/ >
 
-# PLease read the GNU Affero General Public License in <https://www.github.com/VENOM-CRAZY/VENOMxOPxMUSIC/LICENSE/>.
+# PLease read the GNU Affero General Public License in <https://github.com/TEAM-DLK/DOOZY-MUSIC-main/LICENSE/>.
 
 if [ -d "resources" ]
 
@@ -20,9 +20,9 @@ else
 
     apt install git -y
 
-    git clone https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC
+    git clone https://github.com/TEAM-DLK/DOOZY-MUSIC-main
 
-    cd VENOMxOPxMUSIC
+    cd DOOZY-MUSIC-main
 
 fi
 
