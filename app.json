@@ -1,9 +1,9 @@
 {
-    "name": "VENOMxOPxMUSIC",
-    "logo": "https://telegra.ph/file/bba6f800202a4c6c08ff6.png",
+    "name": "𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 𝗠𝗨𝗦𝗜𝗖 𝗣𝗥𝗢𝗝𝗘𝗖𝗧",
+    "logo": "https://telegra.ph/file/bdf1c5276fa720145acc8.jpg",
     "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC",
+    "repository": "https://github.com/TEAM-DLK/DOOZY-MUSIC-main",
     "stack": "container",
     "env": {
         "API_ID": {
@@ -35,7 +35,7 @@
           "required": true
         },
         "STRING_SESSION": {
-            "description": "enter pyrogram string get it from @venomstring_bot",
+            "description": "enter pyrogram string get it from 𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 string",
             "required": true
         }
     },
