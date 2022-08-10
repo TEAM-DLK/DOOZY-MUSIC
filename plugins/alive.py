@@ -47,7 +47,7 @@ async def start_(client: Client, message: Message):
                   ],[
                       InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}")
                 ],[
-                      InlineKeyboardButton(text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀᴇ ɢʀᴏᴜᴘ➕", url=f"https://t.me/any24emusic?startgroup=true")
+                      InlineKeyboardButton(text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀᴇ ɢʀᴏᴜᴘ➕", url=f"https://t.me/any24emusic_bot?startgroup=true")
                 ]
                 
            ]
