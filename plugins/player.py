@@ -400,12 +400,12 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="hhttps://telegra.ph/file/bdf1c5276fa720145acc8.jpg", 
+                             photo="https://telegra.ph/file/bdf1c5276fa720145acc8.jpg", 
                              caption="**𝐒𝐭𝐨𝐩𝐩𝐞𝐝...**"
     )
 
 
-@Client.on_message(commandpro(["reload", "refresh"]))
+@Client.on_message(commandpro(["/reload", "reload", "refresh"]))
 @errors
 @authorized_users_only
 async def admincache(client, message: Message):
