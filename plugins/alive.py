@@ -36,7 +36,6 @@ async def start_(client: Client, message: Message):
         photo=f"https://telegra.ph/file/bdf568ec7a4fc7845330b.png",
         caption= f"""✨ **ᴡᴇʟᴄᴏᴍᴇ 
 💭 [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 𝗠𝗨𝗦𝗜𝗖 |⁪⁬⁮⁮⁮⁮𝘽𝙊𝙏🇱🇰](https://t.me/any24emusic_bot) **ᴛʜɪs ɪs ᴛʜᴇ ᴍᴏsᴛ ᴄᴏᴍᴘʟᴇᴛᴇ ʙᴏᴛ ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄᴀʟʟ ᴇᴀsɪʟʏ🚸 & sᴀғᴇʟʏ ✅!**
-💡 **ꜰɪɴᴅ ᴏᴜᴛ ᴀʟʟ ᴛʜᴇ ʙᴏᴛ'ꜱ ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ʜᴏᴡ ᴛʜᴇʏ ᴡᴏʀᴋ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ »  ᴄᴏᴍᴍᴀɴᴅꜱ ʙᴜᴛᴛᴏɴ!**
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
