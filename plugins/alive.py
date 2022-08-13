@@ -33,15 +33,15 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/bdf568ec7a4fc7845330b.png",
+        photo=f"https://telegra.ph/file/1a2ce7f4309bebd4055c4.jpg",
         caption= f"""✨ **ᴡᴇʟᴄᴏᴍᴇ 
-💭 [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 𝗠𝗨𝗦𝗜𝗖 |⁪⁬⁮⁮⁮⁮𝘽𝙊𝙏🇱🇰](https://t.me/any24emusic_bot) **ᴛʜɪs ɪs ᴛʜᴇ ᴍᴏsᴛ ᴄᴏᴍᴘʟᴇᴛᴇ ʙᴏᴛ ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄᴀʟʟ ᴇᴀsɪʟʏ🚸 & sᴀғᴇʟʏ ✅!**
+💭**ᴛʜɪs ɪs ᴛʜᴇ ᴍᴏsᴛ ᴄᴏᴍᴘʟᴇᴛᴇ ʙᴏᴛ ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄᴀʟʟ ᴇᴀsɪʟʏ🚸 & sᴀғᴇʟʏ ✅!**
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="REPO", url=f"https://github.com/TEAM-DLK/doozyx"),
+                        text="DJ DOOZY", url=f"https://www.youtube.com/c/DJDOOZY"),
                         InlineKeyboardButton(text="CHANNEL", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                       InlineKeyboardButton(text="GROUP", url=f"https://t.me/{SUPPORT_GROUP}"),
                   ],[
@@ -58,29 +58,37 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/alive", "venomop"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/bdf1c5276fa720145acc8.jpg",
+        photo=f"https://telegra.ph/file/1a2ce7f4309bebd4055c4.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text=
-                        "ᴊᴏɪɴ ʜᴇʀᴇ", url=f"https://t.me/{SUPPORT_GROUP}")
+                    InlineKeyboardButton(
+                        text="DJ DOOZY", url=f"https://www.youtube.com/c/DJDOOZY"),
+                        InlineKeyboardButton(text="CHANNEL", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                      InlineKeyboardButton(text="GROUP", url=f"https://t.me/{SUPPORT_GROUP}"),
+                  ],[
+                      InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}")
+                ],[
+                      InlineKeyboardButton(text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀᴇ ɢʀᴏᴜᴘ➕", url=f"https://t.me/any24emusic_bot?startgroup=true")
                 ]
-            ]
+                
+           ]
         ),
     )
+    
 
 
 @Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/bdf1c5276fa720145acc8.jpg",
+        photo=f"https://telegra.ph/file/1a2ce7f4309bebd4055c4.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text=
-                        " ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ ", url=f"https://github.com/TEAM-DLK/doozyx")
+                        " ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ ", url=f"https://www.youtube.com/c/DJDOOZY")
                 ]
             ]
         ),
