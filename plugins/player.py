@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: 𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 (@anymusictgvc)",
+        f"Powered By: ANY24 MUSIC (@anymusictgvc)",
         (255, 255, 255),
         font=font,
     )
@@ -99,7 +99,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
 @Client.on_message(
-    commandpro(["/play", "/yt", "/ytp", "play", "yt", "ytp", "/fuck", "#"])
+    commandpro(["/play", "/yt", "/ytp", "play", "yt", "ytp", "#"])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
@@ -109,7 +109,7 @@ async def play(_, message: Message):
     global que
     global useer
     
-    lel = await message.reply("**𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐒𝐨𝐧𝐠 🎸🎸...**")
+    lel = await message.reply("**🔎 **searching...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -129,13 +129,13 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "**𝐏𝐫𝐨𝐦𝐨𝐭𝐞 𝐌𝐞 𝐀𝐬 𝐀 𝐀𝐝𝐦𝐢𝐧 𝐓𝐨 𝐏𝐥𝐚𝐲 𝐒𝐨𝐧𝐠❤️...**")
+                        "**💡 To use me, I need to be an **Administrator** Data is **updated** automatically after you **promote me**❤️...**")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**𝐇𝐞𝐲 𝐈 𝐚𝐦 𝐀𝐬𝐬𝐢𝐬𝐭𝐚n𝐭 𝐈 𝐣𝐨𝐢𝐧𝐞𝐝 𝐟𝐨𝐫 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 𝐒𝐨𝐧𝐠 𝐎𝐧 𝐕𝐂...**")
+                        message.chat.id, "**Hey I am Assistant I joined for Playing Song On Video Chat...**")
 
                 except UserAlreadyParticipant:
                     pass
@@ -172,10 +172,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="𝐆 𝐑 𝐎 𝐔 𝐏", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="𝐂 𝐇 𝐀 𝐍 𝐍 𝐄 𝐋", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                        InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"),
+                      InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="𝐎 𝐖 𝐍 𝐄 𝐑", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}")
 
                 ]
             ]
@@ -212,10 +212,10 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="𝐆 𝐑 𝐎 𝐔 𝐏", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="𝐂 𝐇 𝐀 𝐍 𝐍 𝐄 𝐋", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                        InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"),
+                      InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="𝐎 𝐖 𝐍 𝐄 𝐑", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}")
 
                 ]
             ]
@@ -229,10 +229,10 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="𝐆 𝐑 𝐎 𝐔 𝐏", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="𝐂 𝐇 𝐀 𝐍 𝐍 𝐄 𝐋", url=f"https://t.me/{SUPPO_CHANNEL}"),
+                        InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"),
+                      InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{SUPPO_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="𝐎 𝐖 𝐍 𝐄 𝐑", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}")
 
                 ]
             ]
@@ -287,7 +287,7 @@ async def play(_, message: Message):
                         InlineKeyboardButton(text="𝐆 𝐑 𝐎 𝐔 𝐏", url=f"https://t.me/{SUPPORT_GROUP}"),
                       InlineKeyboardButton(text="𝐂 𝐇 𝐀 𝐍 𝐍 𝐄 𝐋", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="𝐎 𝐖 𝐍 𝐄 𝐑", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}")
 
                 ]
             ]
@@ -309,7 +309,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**𝐒𝐨𝐧𝐠 𝐐𝐮𝐞𝐃 𝐀𝐓» `{}` 🩸...**".format(position),
+            caption="**Track added to the queue At» `{}` 🩸...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -326,7 +326,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**𝐏𝐥𝐚𝐲𝐢𝐧𝐠🎸**".format(),
+            caption="**music streaming started.**\n\n🏷 **Name:** [{songname}]({link})\n💭 **Chat:** `{chat_id}`\n💡 **Status:** `Playing`\n🎧 **Request by:** {requester}",**".format(),
            )
 
     os.remove("final.png")
