@@ -159,7 +159,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**play music less \n then  {DURATION_LIMIT} minutes...**"
+                f"**play music less  then  {DURATION_LIMIT} minutes...**"
             )
 
         file_name = get_file_name(audio)
@@ -240,7 +240,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**𝐏𝐥𝐚𝐲 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 𝐋𝐞𝐬𝐬 𝐓𝐡𝐞𝐧  {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 🩸...**"
+                f"**Play The Song Less Then  {DURATION_LIMIT} Minutes...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -249,9 +249,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**𝐏𝐥𝐞𝐚𝐬𝐞 𝐓𝐲𝐩𝐞 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠 𝐍𝐚𝐦𝐞 𝐓𝐨 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬i𝐜...**"
+                "**Please Type the Song Name To Play Music...**"
             )
-        await lel.edit("**𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐧𝐠  𝐓𝐨  𝐒𝐞𝐫𝐯𝐞𝐫🩸...**")
+        await lel.edit("**Connecting...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -276,7 +276,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🔊𝐒𝐨𝐧𝐠 𝐍𝐨𝐭 𝐟𝐨𝐮𝐧𝐝 𝐏𝐥𝐞𝐚𝐬𝐞 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧...**"
+                "**Song Not found Please Try Again...**"
             )
             print(str(e))
             return
