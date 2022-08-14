@@ -33,7 +33,7 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/1a2ce7f4309bebd4055c4.jpg",
+        photo=f"https://telegra.ph/file/e0f800ab5b38332d07d7a.jpg",
         caption= f"""✨ **ᴡᴇʟᴄᴏᴍᴇ 
 💭**ᴛʜɪs ɪs ᴛʜᴇ ᴍᴏsᴛ ᴄᴏᴍᴘʟᴇᴛᴇ ʙᴏᴛ ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄᴀʟʟ ᴇᴀsɪʟʏ🚸 & sᴀғᴇʟʏ ✅!**
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
@@ -41,13 +41,13 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="DJ DOOZY", url=f"https://www.youtube.com/c/DJDOOZY"),
+                        text="Education", url=f"https://t.me/Sakith_EducationQuizGruop"),
                         InlineKeyboardButton(text="CHANNEL", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                       InlineKeyboardButton(text="GROUP", url=f"https://t.me/{SUPPORT_GROUP}"),
                   ],[
                       InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}")
                 ],[
-                      InlineKeyboardButton(text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀᴇ ɢʀᴏᴜᴘ➕", url=f"https://t.me/any24emusic_bot?startgroup=true")
+                      InlineKeyboardButton(text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀᴇ ɢʀᴏᴜᴘ➕", url=f"https://t.me/DarkSkyOfficialBOT?startgroup=true")
                 ]
                 
            ]
@@ -58,7 +58,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/alive", "ping"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/1a2ce7f4309bebd4055c4.jpg",
+        photo=f"https://telegra.ph/file/e0f800ab5b38332d07d7a.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
