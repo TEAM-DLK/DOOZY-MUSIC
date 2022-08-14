@@ -295,7 +295,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**𝐏𝐥𝐚𝐲 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 𝐋𝐞𝐬𝐬 𝐓𝐡𝐞𝐧  {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 🩸...**"
+                f"**Play The Song Less Then  {DURATION_LIMIT} Minutes 🥲👍...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -309,7 +309,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**Track added to the queue At» `{}` 🩸...**".format(position),
+            caption="**Track added to the queue At `{}` 🌝...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -326,7 +326,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**music streaming started.**"
+            caption="**Playing🌝**"
            )
 
     os.remove("final.png")
@@ -340,7 +340,7 @@ async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/bdf1c5276fa720145acc8.jpg", 
-                             caption="**𝐏𝐚𝐮𝐬𝐞𝐝⏸...**"
+                             caption="**Paused⏸...**"
     )
 
 
@@ -351,7 +351,7 @@ async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/bdf1c5276fa720145acc8.jpg", 
-                             caption="**𝐑𝐞𝐬𝐮𝐦𝐞⏹...**"
+                             caption="**Resume⏹...**"
     )
 
 
@@ -366,7 +366,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**𝐏𝐥𝐚𝐲 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 𝐓𝐨 𝐒𝐤𝐢𝐩 😂...**")
+        await message.reply_text("**Play The Song To Skip...**")
     else:
         queues.task_done(chat_id)
         
@@ -385,7 +385,7 @@ async def skip(_, message: Message):
 
     await message.reply_photo(
                              photo="https://telegra.ph/file/bdf1c5276fa720145acc8.jpg", 
-                             caption=f'**𝐒𝐊𝐈𝐏𝐄𝐃...**'
+                             caption=f'**Skipe...**'
    ) 
 
 
@@ -401,7 +401,7 @@ async def stop(_, message: Message):
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/bdf1c5276fa720145acc8.jpg", 
-                             caption="**𝐒𝐭𝐨𝐩𝐩𝐞𝐝...**"
+                             caption="**Music Playing Is End...**"
     )
 
 
@@ -419,5 +419,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="https://telegra.ph/file/bdf1c5276fa720145acc8.jpg",
-                              caption="**𝐑𝐞𝐥𝐨𝐝𝐞𝐝....**"
+                              caption="**Reload is Successfully....**"
     )
