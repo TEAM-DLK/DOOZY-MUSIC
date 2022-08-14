@@ -35,13 +35,13 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/acce0e747a19ffd26803f.jpg",
         caption= f"""✨ **ᴡᴇʟᴄᴏᴍᴇ 
-💭**ᴛʜɪs ɪs ᴛʜᴇ ᴍᴏsᴛ ᴄᴏᴍᴘʟᴇᴛᴇ ʙᴏᴛ ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄᴀʟʟ ᴇᴀsɪʟʏ🚸 & sᴀғᴇʟʏ ✅!**
+💭**ᴛʜɪs ɪs ᴛʜᴇ ᴍᴏsᴛ ᴄᴏᴍᴘʟᴇᴛᴇ ♥️ 𝙔𝙊𝙐 𝘼𝙉𝘿 𝙈𝙀 ♥️ ʙᴏᴛ ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄᴀʟʟ ᴇᴀsɪʟʏ🚸 & sᴀғᴇʟʏ ✅!**
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="𝙔𝙊𝙐 𝘼𝙉𝘿 𝙈�", url=f"https://t.me/You_And_Me_PASEE_MAHEE"),
+                        text="♥️ 𝙔𝙊𝙐 𝘼𝙉𝘿 𝙈𝙀 ♥️", url=f"https://t.me/You_And_Me_PASEE_MAHEE"),
                         InlineKeyboardButton(text="CHANNEL", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                       InlineKeyboardButton(text="GROUP", url=f"https://t.me/{SUPPORT_GROUP}"),
                   ],[
