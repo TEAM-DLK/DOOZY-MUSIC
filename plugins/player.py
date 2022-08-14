@@ -173,7 +173,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(text="GROUP", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                      InlineKeyboardButton(text="CHANNEL", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
                       InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}")
 
@@ -213,7 +213,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(text="GROUP", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                      InlineKeyboardButton(text="CHANNEL", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
                       InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}")
 
@@ -230,7 +230,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(text="GROUP", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{SUPPO_CHANNEL}"),
+                      InlineKeyboardButton(text="CHANNEL", url=f"https://t.me/{SUPPO_CHANNEL}"),
                   ],[
                       InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}")
 
@@ -285,7 +285,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(text="GROUP", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="𝐂 𝐇 𝐀 𝐍 𝐍 𝐄 𝐋", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                      InlineKeyboardButton(text="CHANNEL", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
                       InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}")
 
