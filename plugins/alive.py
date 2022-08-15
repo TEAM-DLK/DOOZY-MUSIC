@@ -100,3 +100,19 @@ async def help(client: Client, message: Message):
             ]
         ),
     )
+
+
+@Client.on_message(commandpro(["Good Morning", "Gm", "gm", "GM", "ගුඩ් මොනිම්"]) & filters.group & ~filters.edited)
+async def help(client: Client, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/74db22e306834bd6059d6.jpg",
+        caption=f"""**Good Morning..**""",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(text=
+                        " Share Group Link ", url=f"https://t.me/share/url?url=https://t.me/{SUPPORT_GROUP}"),
+                ]
+            ]
+        ),
+    )
