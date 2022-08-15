@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: ANY24 MUSIC (@anymusictgvc)",
+        f"Powered By: ANY24 MUSIC (@any24e)",
         (255, 255, 255),
         font=font,
     )
@@ -164,7 +164,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/bdf1c5276fa720145acc8.jpg"
+        thumb_name = "https://telegra.ph/file/1242bf167d7004fcdd98b.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -223,7 +223,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/bdf1c5276fa720145acc8.jpg"
+            thumb_name = "https://telegra.ph/file/1242bf167d7004fcdd98b.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -339,7 +339,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/acce0e747a19ffd26803f.jpg", 
+                             photo="https://telegra.ph/file/1242bf167d7004fcdd98b.jpg", 
                              caption="**Paused⏸...**"
     )
 
@@ -350,7 +350,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/acce0e747a19ffd26803f.jpg", 
+                             photo="https://telegra.ph/file/1242bf167d7004fcdd98b.jpg", 
                              caption="**Resume⏹...**"
     )
 
@@ -384,7 +384,7 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/acce0e747a19ffd26803f.jpg", 
+                             photo="https://telegra.ph/file/1242bf167d7004fcdd98b.jpg", 
                              caption=f'**Skipe...**'
    ) 
 
@@ -400,7 +400,7 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/acce0e747a19ffd26803f.jpg", 
+                             photo="https://telegra.ph/file/1242bf167d7004fcdd98b.jpg", 
                              caption="**Music Playing Is End...**"
     )
 
@@ -418,6 +418,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/acce0e747a19ffd26803f.jpg",
+                              photo="https://telegra.ph/file/1242bf167d7004fcdd98b.jpg",
                               caption="**Reload is Successfully....**"
     )
