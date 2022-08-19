@@ -4,7 +4,7 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Dialog, Chat, Message
 from pyrogram.errors import UserAlreadyParticipant
-from modules.clientbot.clientbot import client as doozy
+from modules.clientbot.clientbot import client as clientbot
 from modules.config import SUDO_USERS
 
 @Client.on_message(filters.command(["gcast", "post", "send"]))
@@ -19,9 +19,9 @@ async def broadcast(_, message: Message):
             await wtf.edit("**__Ƥɭɘɑsɘ Ʀɘƥɭy Ƭø ɑ Mɘssɑʛɘ Ƭø Stɑɤt Ɓɤøɑɗƈɑst ...__**")
             return
         lmao = message.reply_to_message.text
-        async for dialog in doozy.iter_dialogs():
+        async for dialog in clientbot.iter_dialogs():
             try:
-                await doozy.send_message(dialog.chat.id, lmao)
+                await clientbot.send_message(dialog.chat.id, lmao)
                 sent = sent+1
                 await wtf.edit(f"`Ɓɤøɑɗƈɑstɩŋʛ` \n\n**Sɘŋt Ƭø:** `{sent}` Ƈɦɑts \n**Fɑɩɭɘɗ Iŋ:** {failed} chats")
                 await asyncio.sleep(3)
