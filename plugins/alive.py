@@ -3,8 +3,6 @@ from time import time
 from datetime import datetime
 from modules.helpers.filters import command
 from modules.helpers.command import commandpro
-from modules.helpers.command import commandproo
-from modules.helpers.command import commandprooo
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from modules.config import OWNER_USERNAME, SUPPORT_GROUP, SUPPORT_CHANNEL
