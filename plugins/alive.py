@@ -3,6 +3,8 @@ from time import time
 from datetime import datetime
 from modules.helpers.filters import command
 from modules.helpers.command import commandpro
+from modules.helpers.command import commandproo
+from modules.helpers.command import commandprooo
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from modules.config import OWNER_USERNAME, SUPPORT_GROUP, SUPPORT_CHANNEL
@@ -62,11 +64,12 @@ async def start_(client: Client, message: Message):
     )
     
    
-@Client.on_message(commandpro(["Good Morning", "Gm", "gm", "GM", "ගුඩ් මොනිම්"]) & filters.group & ~filters.edited)
+@Client.on_message(commandproo(["Good Morning", "Gm", "gm", "GM", "ගුඩ් මොනිම්"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
         await message.reply("**Good Morning🌝<3..**")
 
-@Client.on_message(commandpro(["Good Night", "Gn", "gn", "GN", "ගුඩ් නයිට්"]) & filters.group & ~filters.edited)
+@Client.on_message(commandprooo
+(["Good Night", "Gn", "gn", "GN", "ගුඩ් නයිට්"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
         await message.reply("**Good Night🌝<3..**")
 
