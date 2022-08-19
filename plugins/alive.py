@@ -64,4 +64,4 @@ async def start_(client: Client, message: Message):
    
 @Client.on_message(commandpro(["Good Morning", "Gm", "gm", "GM", "ගුඩ් මොනිම්"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
-        caption=f"""**Good Morning..**""",
+        message.reply=f"""**Good Morning..**""",
