@@ -64,15 +64,6 @@ async def start_(client: Client, message: Message):
     )
     
    
-@Client.on_message(commandproo(["Good Morning", "Gm", "gm", "GM", "ගුඩ් මොනිම්"]) & filters.group & ~filters.edited)
-async def help(client: Client, message: Message):
-        await message.reply("**Good Morning🌝<3..**")
-
-@Client.on_message(commandprooo
-(["Good Night", "Gn", "gn", "GN", "ගුඩ් නයිට්"]) & filters.group & ~filters.edited)
-async def help(client: Client, message: Message):
-        await message.reply("**Good Night🌝<3..**")
-
 @Client.on_message(commandpro(["Hi", "හායි", "හායිම්", "Hii", "Hy", "hy", "hi"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
         await message.reply("**Hi🌝<3..**")
