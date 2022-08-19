@@ -1,4 +1,4 @@
-# Copyright (C) 2021 By VeezMusicProject
+# Copyright (C) 2022 By doozyMusic
 
 import os
 from pyrogram import Client, filters
