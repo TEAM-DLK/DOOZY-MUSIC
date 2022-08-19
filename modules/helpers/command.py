@@ -9,7 +9,7 @@ def commandpro(commands: Union[str, List[str]]):
     return filters.command(commands,"")
 
 def commandproo(commands: Union[str, List[str]]):
-    return filters.command(commands,"")
+    return filters.command(commands1,"")
 
 def commandprooo(commands: Union[str, List[str]]):
-    return filters.command(commands,"")
+    return filters.command(commands2,"")
