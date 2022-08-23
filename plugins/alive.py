@@ -32,17 +32,7 @@ async def _human_time_duration(seconds):
 
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
-    await message.reply(f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥-`Hi´-❤🌝💋▶︎ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
-┏━━━━━━━━━━━━━━━━━┓
-┣★ sᴜᴘᴘᴏʀᴛ : [DJ DOOZY](https://www.youtube.com/c/DJDOOZY)
-┣★ sᴏᴜʀᴄᴇ › : [ɢᴇᴛ ʀᴇᴘᴏ ʜᴇʀᴇ](https://github.com/TEAM-DLK)
-┗━━━━━━━━━━━━━━━━━┛
-💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/{OWNER_USERNAME}) ...
-━━━━━━━━━━━━━━━━━━━━━━━━**""",)
-    reply_markup=InlineKeyboardMarkup(
+    await message.reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
