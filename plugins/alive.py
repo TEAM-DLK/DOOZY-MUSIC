@@ -32,10 +32,8 @@ async def _human_time_duration(seconds):
 
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/1242bf167d7004fcdd98b.jpg",
-        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
+    await message.reply("**━━━━━━━━━━━━━━━━━━━━━━━━
+💥-`Hi´-❤🌝💋▶︎/nʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ sᴜᴘᴘᴏʀᴛ : [DJ DOOZY](https://www.youtube.com/c/DJDOOZY)
@@ -43,7 +41,7 @@ async def start_(client: Client, message: Message):
 ┗━━━━━━━━━━━━━━━━━┛
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
 ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/{OWNER_USERNAME}) ...
-━━━━━━━━━━━━━━━━━━━━━━━━**""",
+━━━━━━━━━━━━━━━━━━━━━━━━**",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -52,9 +50,7 @@ async def start_(client: Client, message: Message):
                         InlineKeyboardButton(text="CHANNEL", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                       InlineKeyboardButton(text="GROUP", url=f"https://t.me/{SUPPORT_GROUP}"),
                   ],[
-                      InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}")
-                ],[
-                      InlineKeyboardButton(text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀᴇ ɢʀᴏᴜᴘ➕", url=f"https://t.me/any24emusic_bot?startgroup=true")
+                      InlineKeyboardButton(text="ADD ME TO YOUR CHAT", url=f"https://t.me/any24emusic_bot?startgroup=true")
                 ]
                 
            ]
