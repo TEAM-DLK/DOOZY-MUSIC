@@ -30,23 +30,7 @@ async def _human_time_duration(seconds):
     
    
 
-@Client.on_message(command("start") & filters.private & ~filters.edited)
-async def start_(client: Client, message: Message):
-    await message.reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        text="DJ DOOZY", url=f"https://www.youtube.com/c/DJDOOZY"),
-                        InlineKeyboardButton(text="CHANNEL", url=f"https://t.me/{SUPPORT_CHANNEL}"),
-                      InlineKeyboardButton(text="GROUP", url=f"https://t.me/{SUPPORT_GROUP}"),
-                  ],[
-                      InlineKeyboardButton(text="ADD ME TO YOUR CHAT", url=f"https://t.me/any24emusic_bot?startgroup=true")
-                ]
-                
-           ]
-        ),
-    )
-    
+
    
 @Client.on_message(commandpro(["Hi", "හායි", "හායිම්", "Hii", "Hy", "hy", "hi"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
