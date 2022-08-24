@@ -44,9 +44,9 @@ async def start_(client: Client, message: Message):
     reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        text="❰「𝗔𝗗𝗗 𝗠𝗘」❱", url=f"https://t.me/any24emusic_bot?startgroup=true"),
-                        InlineKeyboardButton(text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                      InlineKeyboardButton(text="❰「𝗔𝗗𝗗 𝗠𝗘」❱", url=f"https://t.me/any24emusic_bot?startgroup=true"),
+                ],[
+                      InlineKeyboardButton(text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                       InlineKeyboardButton(text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url=f"https://t.me/{SUPPORT_GROUP}"),
                   ],[
                       InlineKeyboardButton(text="𝗢𝗪𝗡𝗘𝗥", url=f"https://t.me/{OWNER_USERNAME}")
