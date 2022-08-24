@@ -34,33 +34,29 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/c43ae4bf7d12ce40e76e8.jpg",
-        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-🇱🇰☆° ﾟ𝗛𝗲𝗹𝗹𝗼
+        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
+💥 𝗛𝗲𝗹𝗹𝗼
 𝗜 𝗔𝗠 𝗣𝗟𝗔𝗬𝗜𝗡𝗚 𝗠𝗨𝗦𝗜𝗖 𝗦𝗢𝗡𝗚𝗦 𝗜𝗡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗩𝗜𝗗𝗘𝗢 𝗖𝗛𝗔𝗧.❤️
 & 𝗧𝗛𝗘𝗥𝗘 𝗛𝗔𝗩𝗘 𝗦𝗢𝗠𝗘 𝗦𝗣𝗘𝗖𝗜𝗔𝗟 𝗣𝗟𝗨𝗚𝗜𝗡𝗦.❤️
-
 ""/help"" - 𝗖𝗛𝗔𝗧𝗕𝗢𝗧 𝗛𝗘𝗟𝗣 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦
 ""/on"" - 𝗦𝗧𝗔𝗥𝗧 𝗧𝗛𝗘 𝗖𝗛𝗔𝗧𝗕𝗢𝗧
-┏━━━━━━━━━━━━━━━━━┓
-┣★ 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 : [𝗔𝗡𝗬ᒾ⁴]("https://t.me/{SUPPORT_CHANNEL}")
-┣★ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 : [𝗔𝗡𝗬ᒾ⁴]("https://t.me/{SUPPORT_GROUP}")
-┗━━━━━━━━━━━━━━━━━┛
-
-❤️𝗜𝗙 𝗬𝗢𝗨 𝗛𝗔𝗩𝗘 𝗔𝗡𝗬 𝗨𝗘𝗦𝗧𝗜𝗢𝗡𝗦 𝗧𝗛𝗘𝗡 𝗣𝗠 𝗧𝗢 𝗠𝗬 [𝗢𝗪𝗡𝗘𝗥]("https://t.me/{OWNER_USERNAME}")
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
-    reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        " ❰「𝗔𝗗𝗗 𝗠𝗘」❱ ", url=f"https://t.me/any24emusic_bot?startgroup=true")
-                
-                
-           ]
-        ),
-    )
-    
-   
-
+    reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        text="❰「𝗔𝗗𝗗 𝗠𝗘」❱", url=f"https://t.me/any24emusic_bot?startgroup=true"),
+                        InlineKeyboardButton(text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                      InlineKeyboardButton(text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url=f"https://t.me/{SUPPORT_GROUP}"),
+                  ],[
+                      InlineKeyboardButton(text="𝗢𝗪𝗡𝗘𝗥", url=f"https://t.me/{OWNER_USERNAME}")
+                ]
+                
+           ]
+        ),
+    )
+    
+    
    
 @Client.on_message(commandpro(["Hi", "හායි", "හායිම්", "Hii", "Hy", "hy", "hi"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
