@@ -27,15 +27,17 @@
           "required": true
         },
         
-          
-          
-       
+        "SUDO_USERS": {
+          "description": "PUT UR USER ID HERE",
+          "required": true
+        },
+                
         "OWNER_USERNAME": {
-          "description": "PUT UR USERNAME HERE WITHOU @ LIKE VENOMxCRAZY",
+          "description": "PUT UR USERNAME HERE WITHOU @ LIKE SLDOOZY",
           "required": true
         },
         "STRING_SESSION": {
-            "description": "enter pyrogram string get it from 𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 string",
+            "description": "enter pyrogram string get it from  string",
             "required": true
         }
     },
