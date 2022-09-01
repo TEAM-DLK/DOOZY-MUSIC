@@ -1,4 +1,4 @@
-
+https://github.com/TEAM-DLK/DOOZY-MUSIC-main/blob/main/resource/logo.jpg
 
 🧪 ɢᴇᴛ SESSION_NAME ꜰʀᴏᴍ ʜᴇʀᴇ:
 
