@@ -31,6 +31,12 @@
           "required": true
         },
 
+         "START_IMAGE": {
+          "description": "PUT UR BOT START IMAGE LINK HERE",
+          "value": "https://telegra.ph/file/ba6f3f2af1c24d0ce7fe2.jpg",
+          "required": true
+        },
+
         "SUPPORT_GROUP": {
           "description": "PUT UR GROUP LINK HERE WITHOU @",
           "required": true
