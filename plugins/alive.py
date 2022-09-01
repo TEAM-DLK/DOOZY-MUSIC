@@ -33,7 +33,7 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/b5699dcba3f4a2c134c3d.jpg",
+        photo=f"https://telegra.ph/file/90fd62ade53e7535f0af0.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 𝗛𝗲𝗹𝗹𝗼......
 𝗜 𝗔𝗠 𝗣𝗟𝗔𝗬𝗜𝗡𝗚 𝗠𝗨𝗦𝗜𝗖 𝗦𝗢𝗡𝗚𝗦 𝗜𝗡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗩𝗜𝗗𝗘𝗢 𝗖𝗛𝗔𝗧.❤️
@@ -60,5 +60,5 @@ async def start_(client: Client, message: Message):
    
 @Client.on_message(commandpro(["Hi", "හායි", "හායිම්", "Hii", "Hy", "hy", "hi"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
-        await message.reply("**Hi🌝<3..**")
+        await message.reply("**Hi**")
 
