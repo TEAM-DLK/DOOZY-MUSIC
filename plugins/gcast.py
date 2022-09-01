@@ -14,17 +14,17 @@ async def broadcast(_, message: Message):
     if message.from_user.id not in SUDO_USERS:
         return
     else:
-        wtf = await message.reply("`Starting Broadcast...`")
+        wtf = await message.reply("Starting Broadcast...")
         if not message.reply_to_message:
-            await wtf.edit("**__Ƥɭɘɑsɘ Ʀɘƥɭy Ƭø ɑ Mɘssɑʛɘ Ƭø Stɑɤt Ɓɤøɑɗƈɑst ...__**")
+            await wtf.edit("Please Reply To a Message To Start Broadcast ...")
             return
         lmao = message.reply_to_message.text
         async for dialog in clientbot.iter_dialogs():
             try:
                 await clientbot.send_message(dialog.chat.id, lmao)
                 sent = sent+1
-                await wtf.edit(f"`Ɓɤøɑɗƈɑstɩŋʛ` \n\n**Sɘŋt Ƭø:** `{sent}` Ƈɦɑts \n**Fɑɩɭɘɗ Iŋ:** {failed} chats")
+                await wtf.edit(f"Broadcasting \n\nSent To: {sent} Chats \nFailed In: {failed} chats")
                 await asyncio.sleep(3)
             except:
                 failed=failed+1
-        await message.reply_text(f"`Ɠƈɑst Sʋƈƈɘssfʋɭɭy` \n\n**Sɘŋt Ƭø:** `{sent}` Ƈɦɑts \n**Fɑɩɭɘɗ Iŋ:** {failed} Ƈɦɑts")
+        await message.reply_text(f"G Cast Successfully \n\nSent To: {sent} Ƈɦɑts \nFailed In: {failed} Chats")
