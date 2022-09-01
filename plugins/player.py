@@ -418,6 +418,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="resource/logo.jpg",
+                              photo="resource/reload.jpg",
                               caption="**Reload is Successfully....**"
     )
