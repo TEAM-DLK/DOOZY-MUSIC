@@ -18,7 +18,7 @@ from modules.helpers.admins import get_administrators
 from youtube_search import YoutubeSearch
 from modules import converter
 from modules.downloaders import youtube
-from modules.config import DURATION_LIMIT, que, SUDO_USERS, OWNER_USERNAME, SUPPORT_GROUP, SUPPORT_CHANNEL
+from modules.config import DURATION_LIMIT, que, SUDO_USERS, OWNER_USERNAME, SUPPORT_GROUP, SUPPORT_CHANNEL, BOT_NAME
 from modules.cache.admins import admins as a
 from modules.helpers.filters import command, other_filters
 from modules.helpers.command import commandpro
@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: DOOZY MUSIC BOT (@any24e)",
+        f"Powered By: "{BOT_NAME}" ("{SUPPORT_CHANNEL}")",
         (255, 255, 255),
         font=font,
     )
