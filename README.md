@@ -1,4 +1,5 @@
-
+#### HI DOOZY MUSIC BOT...
+###### No Ban Heroku
 ## <img src="resource/logo.jpg" width="200px"> 
 
 <p>
