@@ -1,5 +1,12 @@
-https://github.com/TEAM-DLK/DOOZY-MUSIC-main/blob/main/resource/logo.jpg
 
+## <img src="resource/logo.jpg" width="500px"> 
+
+<p>
+    <a href="https://t.me/any24e" target="blank"><img src="https://img.shields.io/badge/@Any24-DLK-30302f?style=flat&logo=telegram" /></a>
+
+___
+
+ </br>
 🧪 ɢᴇᴛ SESSION_NAME ꜰʀᴏᴍ ʜᴇʀᴇ:
 
 [SESSION STRING](https://replit.com/@doozylab-lk/Session-String-Generator-SL?v=1)
