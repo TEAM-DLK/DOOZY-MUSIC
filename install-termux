@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
-# DOOZY-MUSIC-main - DOOZY-MUSIC-main
+# DOOZY-MUSIC - DOOZY-MUSIC
 
 # Copyright (C) 2021-2022 DOOZY-MUSIC
 
 #
 
-# This file is a part of < https://github.com/TEAM-DLK/DOOZY-MUSIC-main/ >
+# This file is a part of < https://github.com/TEAM-DLK/DOOZY-MUSIC/ >
 
-# PLease read the GNU Affero General Public License in <https://github.com/TEAM-DLK/DOOZY-MUSIC-main/LICENSE/>.
+# PLease read the GNU Affero General Public License in <https://github.com/TEAM-DLK/DOOZY-MUSIC/LICENSE/>.
 
 if [ -d "resources" ]
 
@@ -20,9 +20,9 @@ else
 
     apt install git -y
 
-    git clone https://github.com/TEAM-DLK/DOOZY-MUSIC-main
+    git clone https://github.com/TEAM-DLK/DOOZY-MUSIC
 
-    cd DOOZY-MUSIC-main
+    cd DOOZY-MUSIC
 
 fi
 
