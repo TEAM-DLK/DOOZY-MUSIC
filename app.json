@@ -1,6 +1,6 @@
 {
     "name": "DOOZY-MUSIC-BOT",
-    "logo": "https://github.com/TEAM-DLK/DOOZY-MUSIC-main/blob/main/resource/logo.jpg",
+    "logo": "resource/logo.jpg",
     "description": "An Advanced Premium Music Bot For Telegram Groups VC No Ban Heroku.",
     "keywords": ["music", "voice chat", "telegram"],
     "repository": "https://github.com/TEAM-DLK/DOOZY-MUSIC",
