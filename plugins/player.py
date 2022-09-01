@@ -400,7 +400,7 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/b5699dcba3f4a2c134c3d.jpg", 
+                             photo="resource/end.jpg", 
                              caption="**Music Playing Is End...**"
     )
 
