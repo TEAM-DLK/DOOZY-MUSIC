@@ -5,7 +5,7 @@ from modules.helpers.filters import command
 from modules.helpers.command import commandpro
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from modules.config import OWNER_USERNAME, SUPPORT_GROUP, SUPPORT_CHANNEL
+from modules.config import OWNER_USERNAME, SUPPORT_GROUP, SUPPORT_CHANNEL, BOT_USERNAME
 
 START_TIME = datetime.utcnow()
 START_TIME_ISO = START_TIME.replace(microsecond=0).isoformat()
@@ -43,7 +43,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                       InlineKeyboardButton(
-                          text="❰「𝗔𝗗𝗗 𝗠𝗘」❱", url=f"https://t.me/any24emusic_bot?startgroup=true"),
+                          text="❰「𝗔𝗗𝗗 𝗠𝗘」❱", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
                 ],[
                       InlineKeyboardButton(
                           text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url=f"https://t.me/{SUPPORT_CHANNEL}"),
