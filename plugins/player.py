@@ -418,6 +418,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/b5699dcba3f4a2c134c3d.jpg",
+                              photo="resource/logo.jpg",
                               caption="**Reload is Successfully....**"
     )
