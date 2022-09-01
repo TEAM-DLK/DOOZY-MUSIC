@@ -339,7 +339,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/b5699dcba3f4a2c134c3d.jpg", 
+                             photo="resource/pause.jpg", 
                              caption="**Paused⏸...**"
     )
 
@@ -350,7 +350,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/b5699dcba3f4a2c134c3d.jpg", 
+                             photo="resource/resume.jpg", 
                              caption="**Resume⏹...**"
     )
 
@@ -384,7 +384,7 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/b5699dcba3f4a2c134c3d.jpg", 
+                             photo="resource/skip.jpg", 
                              caption=f'**Skipe...**'
    ) 
 
