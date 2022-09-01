@@ -8,7 +8,7 @@
 ___
 
  </br>
-🧪 ɢᴇᴛ SESSION_NAME ꜰʀᴏᴍ ʜᴇʀᴇ:
+
 
 [SESSION STRING](https://replit.com/@TeamDLK/Session-String-Generator?v=1)
 
