@@ -1,5 +1,5 @@
 
-## <img src="resource/logo.jpg" width="500px"> 
+## <img src="resource/logo.jpg" width="50px"> 
 
 <p>
     <a href="https://t.me/any24e" target="blank"><img src="https://img.shields.io/badge/@Any24-DLK-30302f?style=flat&logo=telegram" /></a>
