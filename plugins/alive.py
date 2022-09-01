@@ -49,7 +49,8 @@ async def start_(client: Client, message: Message):
                           text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                       InlineKeyboardButton(text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url=f"https://t.me/{SUPPORT_GROUP}"),
                   ],[
-                      InlineKeyboardButton(text="𝗢𝗪𝗡𝗘𝗥", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="𝗢𝗪𝗡𝗘𝗥", url=f"https://t.me/{OWNER_USERNAME}"),
+                      InlineKeyboardButton(text="𝗦𝗢𝗨𝗥𝗖𝗘", url=f"https://github.com/TEAM-DLK/DOOZY-MUSIC")
                 ]
                 
            ]
