@@ -26,7 +26,12 @@
           "description": "PUT UR CHANNEL LINK HERE WITHOU @",
           "required": true
         },
-        
+
+        "DURATION_LIMIT": {
+          "description": "PUT UR USER DURATION LIMIT HERE",
+          "required": true
+        },
+
         "SUDO_USERS": {
           "description": "PUT UR USER ID HERE",
           "required": true
