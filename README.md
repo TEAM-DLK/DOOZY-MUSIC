@@ -24,17 +24,17 @@ ___
 
 
 
-### Group Members command!
-# /play - Music Play
+## Group Members command!
+##### /play - Music Play
 
-### Admin commands!
-# /pause - Music Pause
-# /resume - Music Resume
-# /skip - Music Skip
-# /end - Music End
-# /reload - Reload Music Mod
+## Admin commands!
+##### /pause - Music Pause
+##### /resume - Music Resume
+##### /skip - Music Skip
+##### /end - Music End
+##### /reload - Reload Music Mod
 
-### Bot Owner commands!
-# /rmd - deleted all downloaded files
-# /rmw - deleted all raw files
-# /cleanup - cleaned
+## Bot Owner commands!
+##### /rmd - deleted all downloaded files
+##### /rmw - deleted all raw files
+##### /cleanup - cleaned
