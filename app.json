@@ -1,9 +1,9 @@
 {
-    "name": "DLK 𝗠𝗨𝗦𝗜𝗖 𝗣𝗥𝗢𝗝𝗘𝗖𝗧",
-    "logo": "https://telegra.ph/file/bdf1c5276fa720145acc8.jpg",
-    "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
+    "name": "DOOZY-MUSIC-BOT",
+    "logo": "https://github.com/TEAM-DLK/DOOZY-MUSIC-main/blob/main/resource/logo.jpg",
+    "description": "An Advanced Premium Music Bot For Telegram Groups VC No Ban Heroku.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/TEAM-DLK/DOOZY-MUSIC-main",
+    "repository": "https://github.com/TEAM-DLK/DOOZY-MUSIC",
     "stack": "container",
     "env": {
         "API_ID": {
