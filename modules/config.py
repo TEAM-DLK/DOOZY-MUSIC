@@ -17,5 +17,5 @@ SUPPORT_GROUP = getenv("SUPPORT_GROUP")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL")
 
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5789184850").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "SUDO_USERS").split()))
 aiohttpsession = aiohttp.ClientSession()
