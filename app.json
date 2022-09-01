@@ -10,14 +10,27 @@
             "description": "Your App ID",
             "required": true
         },
+
         "API_HASH": {
             "description": "Your App Hash",
             "required": true
         },
+
         "BOT_TOKEN": {
             "description": "Put Bot Token Of Your Bot",
             "required": true
         },
+
+        "BOT_USERNAME": {
+          "description": "PUT UR USERNAME HERE WITHOU @ LIKE SLDOOZY",
+          "required": true
+        },
+
+        "BOT_NAME": {
+          "description": "PUT UR BOT NAME HERE",
+          "required": true
+        },
+
         "SUPPORT_GROUP": {
           "description": "PUT UR GROUP LINK HERE WITHOU @",
           "required": true
@@ -41,6 +54,7 @@
           "description": "PUT UR USERNAME HERE WITHOU @ LIKE SLDOOZY",
           "required": true
         },
+
         "STRING_SESSION": {
             "description": "enter pyrogram string get it from  string",
             "required": true
