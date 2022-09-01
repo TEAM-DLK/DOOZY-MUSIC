@@ -10,7 +10,7 @@ ___
  </br>
 🧪 ɢᴇᴛ SESSION_NAME ꜰʀᴏᴍ ʜᴇʀᴇ:
 
-[SESSION STRING](https://replit.com/@doozylab-lk/Session-String-Generator-SL?v=1)
+[SESSION STRING](https://replit.com/@TeamDLK/Session-String-Generator?v=1)
 
  
 
