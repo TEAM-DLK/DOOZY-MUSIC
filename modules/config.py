@@ -20,4 +20,4 @@ SUPPORT_CHANNEL = getenv("any24e")
 
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5789184850").split()))
-aiohttpsession = aiohttp.ClientSession()
+aiohttpsession = aiohttp.ClientSession(BQAftuI9FZWOFvsrO_NPyEQy9cJpt_JVlo_WV44B2iOpiHzIZ87TTEQNdqoW2mCCZMchU77q5ppBf3sa37-ReeF1Hix6siFFpZmjdK5obOq-BTZmuSKVO-2NZw-L1nAP4vHsjsY98KZg12K8oU_8F6VlCrXPiVqUhbjIpxd-6VA6cbaAp74mPoHeVnbgwbjKm_DnK0wTOok8XjpEvwNHVm-AD_YOei1yeMRB5iqIRmpAIIbCa6R_KgZF33dVGNrdLnWPAfM1vZkKK30dqCXNbL8dRchT4dyS34X4l9HIi6xMnAbtmwXIFaEgaIv92rXOmq00_E2lrnf-JfEjBN58DSV8AAAAAVThuv0A)
