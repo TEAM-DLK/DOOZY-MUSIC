@@ -17,7 +17,6 @@ STRING_SESSION = getenv("BQAftuI9FZWOFvsrO_NPyEQy9cJpt_JVlo_WV44B2iOpiHzIZ87TTEQ
 OWNER_USERNAME = getenv("SLDOOZY")
 SUPPORT_GROUP = getenv("anymusicvctg")
 SUPPORT_CHANNEL = getenv("any24e")
-
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5789184850").split()))
 aiohttpsession = aiohttp.ClientSession()
