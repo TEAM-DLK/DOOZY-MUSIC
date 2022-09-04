@@ -117,7 +117,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Doozy_Player"
+        user.first_name = "Daisy_Player"
     usar = user
     wew = usar.id
     try:
@@ -129,7 +129,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "**💡 To use me, I need to be an **Administrator** Data is **updated** automatically after you **promote me**❤️...**")
+                        "**🙋‍♀️ To use me, I need to be an **Administrator** Data is **updated** automatically after you **promote me** ✅..**")
                     return
 
                 try:
@@ -227,12 +227,13 @@ async def play(_, message: Message):
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
+
             [
-                [
-                        InlineKeyboardButton(text="GROUP", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="CHANNEL", url=f"https://t.me/{SUPPO_CHANNEL}"),
+            
+                        InlineKeyboardButton(text="👥Supports", url=f"https://t.me/{SUPPORT_GROUP}"),
+                      InlineKeyboardButton(text="🙋‍♀️News", url=f"https://t.me/{SUPPO_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="🧑‍💻 Developer", url=f"https://t.me/{OWNER_USERNAME}")
 
                 ]
             ]
@@ -326,7 +327,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**Playing🌝**"
+            caption="**Streaming has Started 🎵**"
            )
 
     os.remove("final.png")
