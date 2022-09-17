@@ -22,16 +22,16 @@ ___
 /play - Music Play
 
 ## Admin commands!
+</details>
 
-/pause - Music Pause
-
-/resume - Music Resume
-
-/skip - Music Skip
-
-/end - Music End
-
-/reload - Reload Music Mod
+<details>
+<summary><b>Click here to see Admin commands </b></summary>
+<br>
+- `/pause` - Music Pause
+- `/resume` - Music Resume
+- `/skip` - Music Skip
+- `/end` - Music End
+- `/reload` - Reload Music Mod
 
 ## Bot Owner commands!
 
