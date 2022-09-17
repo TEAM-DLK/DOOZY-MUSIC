@@ -9,7 +9,7 @@ ___
  </br>
 
 
-[SESSION STRING](https://replit.com/@TeamDLK/Session-String-Generator?v=1)
+[SESSION STRING](https://img.shields.io/badge/repl.it-generateString-yellowgreen)
 
  
 DEPLOY TO HEROKU
