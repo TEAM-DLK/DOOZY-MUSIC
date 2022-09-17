@@ -18,12 +18,12 @@ ___
 
 
 
-## Group Members command!
+<h6> Group Members command! </h6>
 
 -  `/play`  - Music Play
 
 
-## Admin commands!
+<h6> Admin commands! </h6>
 
 -  `/pause`  - Music Pause
 -  `/resume` - Music Resume
@@ -31,7 +31,7 @@ ___
 -  `/end`  - Music End
 -  `/reload`  - Reload Music Mod
 
-## Bot Owner commands!
+<h6> Bot Owner commands! </h6>
 
 -  `/rmd`  - deleted all downloaded files
 -  `/rmw`  - deleted all raw files
