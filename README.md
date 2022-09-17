@@ -1,6 +1,5 @@
-#### HI DOOZY MUSIC BOT...
-###### No Ban Heroku
-## <img src="resource/logo.jpg" width="200px"> 
+
+## <img src="resource/logo.jpg" width="70px"> 
 
 <p>
     <a href="https://t.me/any24e" target="blank"><img src="https://img.shields.io/badge/@Any24-DLK-30302f?style=flat&logo=telegram" /></a>
@@ -13,8 +12,7 @@ ___
 [SESSION STRING](https://replit.com/@TeamDLK/Session-String-Generator?v=1)
 
  
-
-### Deploy To Heroku
+<h1> Deploy To Heroku </h1>
 
 [![DEPLOY](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TEAM-DLK/DOOZY-MUSIC)
 
