@@ -35,22 +35,21 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_IMAGE}",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 𝗛𝗲𝗹𝗹𝗼......
-𝗜 𝗔𝗠 𝗣𝗟𝗔𝗬𝗜𝗡𝗚 𝗠𝗨𝗦𝗜𝗖 𝗦𝗢𝗡𝗚𝗦 𝗜𝗡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗩𝗜𝗗𝗘𝗢 𝗖𝗛𝗔𝗧.❤️
-& 𝗧𝗛𝗘𝗥𝗘 𝗛𝗔𝗩𝗘 𝗦𝗢𝗠𝗘 𝗦𝗣𝗘𝗖𝗜𝗔𝗟 𝗣𝗟𝗨𝗚𝗜𝗡𝗦.❤️
+💥 Hello......
+I am Playing Music Songs in Telegram Video Chat.❤️
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                       InlineKeyboardButton(
-                          text="❰「𝗔𝗗𝗗 𝗠𝗘」❱", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                          text="Add Me To Your Group", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
                 ],[
                       InlineKeyboardButton(
-                          text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url=f"https://t.me/{SUPPORT_CHANNEL}"),
-                      InlineKeyboardButton(text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url=f"https://t.me/{SUPPORT_GROUP}"),
+                          text="Updates", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                      InlineKeyboardButton(text="Support", url=f"https://t.me/{SUPPORT_GROUP}"),
                   ],[
-                      InlineKeyboardButton(text="𝗢𝗪𝗡𝗘𝗥", url=f"https://t.me/{OWNER_USERNAME}"),
-                      InlineKeyboardButton(text="𝗦𝗢𝗨𝗥𝗖𝗘", url=f"https://github.com/TEAM-DLK/DOOZY-MUSIC")
+                      InlineKeyboardButton(text="Owner", url=f"https://t.me/{OWNER_USERNAME}"),
+                      InlineKeyboardButton(text="Source", url=f"https://github.com/TEAM-DLK/DOOZY-MUSIC")
                 ]
                 
            ]
