@@ -12,18 +12,18 @@ ___
 [SESSION STRING](https://replit.com/@TeamDLK/Session-String-Generator?v=1)
 
  
-<h4> Deploy To Heroku </h4>
+DEPLOY TO HEROKU
 
 [![DEPLOY](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TEAM-DLK/DOOZY-MUSIC)
 
 
 
-<h6> Group Members command! </h6>
+<h6> GROUP MEMBERS COMMANDS! </h6>
 
 -  `/play`  - Music Play
 
 
-<h6> Admin commands! </h6>
+<h6> ADMIN COMMANDS! </h6>
 
 -  `/pause`  - Music Pause
 -  `/resume` - Music Resume
@@ -31,7 +31,7 @@ ___
 -  `/end`  - Music End
 -  `/reload`  - Reload Music Mod
 
-<h6> Bot Owner commands! </h6>
+<h6> BOT OWNERO COMMANDS! </h6>
 
 -  `/rmd`  - deleted all downloaded files
 -  `/rmw`  - deleted all raw files
