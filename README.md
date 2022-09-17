@@ -19,7 +19,7 @@ ___
 
 
  <h4> Group Members command! </h4>
-##### /play - Music Play
+eco /play - Music Play
 
 ## Admin commands!
 ##### /pause - Music Pause
