@@ -19,16 +19,16 @@ ___
 
 
  <h4> Group Members command! </h4>
-eco /play - Music Play
+/play - Music Play
 
 ## Admin commands!
-##### /pause - Music Pause
-##### /resume - Music Resume
-##### /skip - Music Skip
-##### /end - Music End
-##### /reload - Reload Music Mod
+/pause - Music Pause
+/resume - Music Resume
+/skip - Music Skip
+/end - Music End
+/reload - Reload Music Mod
 
 ## Bot Owner commands!
-##### /rmd - deleted all downloaded files
-##### /rmw - deleted all raw files
-##### /cleanup - cleaned
+/rmd - deleted all downloaded files
+/rmw - deleted all raw files
+/cleanup - cleaned
