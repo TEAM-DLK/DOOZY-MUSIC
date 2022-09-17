@@ -23,15 +23,14 @@ ___
 
 ## Admin commands!
 </details>
-
 <details>
 <summary><b>Click here to see Admin commands </b></summary>
 <br>
-- `/pause` - Music Pause
-- `/resume` - Music Resume
-- `/skip` - Music Skip
-- `/end` - Music End
-- `/reload` - Reload Music Mod
+-  `/pause`  - Music Pause
+-  `/resume` - Music Resume
+-  `/skip`  - Music Skip
+-  `/end`  - Music End
+-  `/reload`  - Reload Music Mod
 
 ## Bot Owner commands!
 
