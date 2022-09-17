@@ -18,8 +18,10 @@ ___
 
 
 
- <h4> Group Members command! </h4>
-/play - Music Play
+## Group Members command!
+
+-  `/play`  - Music Play
+
 
 ## Admin commands!
 
@@ -31,6 +33,6 @@ ___
 
 ## Bot Owner commands!
 
-/rmd - deleted all downloaded files
-/rmw - deleted all raw files
-/cleanup - cleaned
+-  `/rmd`  - deleted all downloaded files
+-  `/rmw`  - deleted all raw files
+-  `/cleanup`  - cleaned
