@@ -12,13 +12,13 @@ ___
 [SESSION STRING](https://replit.com/@TeamDLK/Session-String-Generator?v=1)
 
  
-<h1> Deploy To Heroku </h1>
+<h4> Deploy To Heroku </h4>
 
 [![DEPLOY](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TEAM-DLK/DOOZY-MUSIC)
 
 
 
-## Group Members command!
+ <h4> Group Members command! </h4>
 ##### /play - Music Play
 
 ## Admin commands!
