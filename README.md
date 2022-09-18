@@ -9,10 +9,10 @@ ___
  </br>
 
 
-- `[SESSION STRING](https://replit.com/@doozylab-lk/Session-String-Generator-SL?v=1)`
+- [SESSION STRING](https://replit.com/@doozylab-lk/Session-String-Generator-SL?v=1)
 
  
-DEPLOY TO HEROKU
+- DEPLOY TO HEROKU
 
 [![DEPLOY](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TEAM-DLK/DOOZY-MUSIC)
 
