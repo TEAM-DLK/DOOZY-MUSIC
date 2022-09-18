@@ -9,7 +9,7 @@ ___
  </br>
 
 
-[SESSION STRING](https://replit.com/@doozylab-lk/Session-String-Generator-SL?v=1)
+- `[SESSION STRING](https://replit.com/@doozylab-lk/Session-String-Generator-SL?v=1)`
 
  
 DEPLOY TO HEROKU
