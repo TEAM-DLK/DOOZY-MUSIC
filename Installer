@@ -4,7 +4,7 @@ asyncio
 dnspython
 ffmpeg-python
 future
-yt-dlp==2021.11.10.1
+yt-dlp==2023.01.06
 motor
 pillow
 psutil
