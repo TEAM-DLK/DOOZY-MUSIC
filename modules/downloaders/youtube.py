@@ -11,7 +11,7 @@ ydl_opts = {
     "nocheckcertificate": True,
     "outtmpl": "downloads/%(id)s.%(ext)s",
 }
-ydl = YoutubeDL(update-to)
+ydl = YoutubeDL(ydl_opts))
 
 
 def download(url: str) -> str:
