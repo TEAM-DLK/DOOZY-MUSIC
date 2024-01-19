@@ -5,8 +5,8 @@ dnspython
 ffmpeg-python
 future
 yt-dlp==2023.01.06
-motor
-pillow
+motor==3.0.0
+pillow==9.5.0
 psutil
 pyrogram==1.4.12
 py-tgcalls==0.8.5
